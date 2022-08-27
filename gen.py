@@ -7,6 +7,3 @@ if lvl != 'A' and lvl != 'B' and lvl != 'C':
 
 # this tells them they did it right
 print(f'you chose {lvl}, winner')
-
-
-# put rest of stuff here

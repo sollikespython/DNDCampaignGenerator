@@ -6,7 +6,7 @@ def generate_start_place(num_players, level):
     if lvl == 'A':
        location_start.pop(1)
     elif lvl == 'B':
-        #some oher pop
+        #some other pop
         pass
     rnd = random.randint(0, len(location_start)-1)
     return location_start[rnd]

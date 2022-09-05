@@ -1,6 +1,10 @@
 
 import random
 
+def randolist(list):
+    rnd = random.randint(0, len(list)-1)
+    return list[rnd]
+
 def generate_start_place(num_players, level):
     # TODO make this do something cool
     if lvl == 'A':
@@ -8,8 +12,7 @@ def generate_start_place(num_players, level):
     elif lvl == 'B':
         #some oher pop
         pass
-    rnd = random.randint(0, len(location_start)-1)
-    return location_start[rnd]
+    return randolist(location_start)
 
 def generate_goal_place(num_players, level):
     if lvl == 'A':
